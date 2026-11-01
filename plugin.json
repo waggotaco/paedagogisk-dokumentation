@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "paedagogisk-dokumentationsassistent",
+  "version": "0.1.1",
+  "description": "Dansk pædagogisk dokumentationsassistent til børnehaver med genanvendelige arbejdsgange til observation, analyse, handleplaner, SMTTE og evaluering.",
+  "author": {
+    "name": "Personligt ChatGPT-plugin"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Pædagogisk Dokumentationsassistent",
+        "shortDescription": "Pædagogisk dokumentation",
+        "longDescription": "En dansk, genanvendelig pædagogisk assistent til børnehavepraksis. Den hjælper med at strukturere observationer, skelne fakta fra fortolkninger, analysere læringsmiljøer, udarbejde handleplaner og SMTTE samt evaluere pædagogisk praksis. Kræver ingen eksterne tjenester eller datalagring.",
+        "developerName": "Personligt ChatGPT-plugin",
+        "category": "Productivity",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": [
+          "NY OBSERVATION – vis min faste ottepunkts-skabelon.",
+          "Hjælp mig med at analysere en pædagogisk situation fra børnehaven.",
+          "Lav en SMTTE eller evaluer en pædagogisk indsats ud fra mine noter."
+        ]
+      }
+    }
+  }
+}

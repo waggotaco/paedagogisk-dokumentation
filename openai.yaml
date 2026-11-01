@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pædagogisk Dokumentationsassistent"
+  short_description: "Dokumentation til børnehaven"
+  default_prompt: "NY OBSERVATION"
+policy:
+  allow_implicit_invocation: true
