@@ -1,0 +1,19 @@
+{
+  "name": "paedagogisk-dokumentation-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stateless MCP server with structured Danish pedagogical documentation tools.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.4.0",
+    "agents": "^0.20.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

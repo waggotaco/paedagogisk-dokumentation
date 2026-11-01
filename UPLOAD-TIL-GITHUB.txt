@@ -1,0 +1,10 @@
+UPLOAD TIL GITHUB
+
+1. Åbn dit repository på GitHub.
+2. Vælg Add file -> Upload files.
+3. Åbn ZIP-filen på din computer, og træk filerne og mappen `src` ind på GitHub-siden.
+   VIGTIGT: Upload INDHOLDET af ZIP-filen, ikke selve ZIP-filen.
+4. Kontrollér, at `package.json`, `wrangler.toml`, `README.md` og mappen `src` ligger i repository'ets øverste niveau.
+5. Skriv commit-beskeden fx: Add MCP server files.
+6. Klik Commit changes.
+7. Gå tilbage til Cloudflare og fortsæt først derefter med deployment.
