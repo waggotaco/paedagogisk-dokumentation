@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "paedagogisk-dokumentation": {
+      "type": "streamable-http",
+      "url": "https://paedagogisk-dokumentation.waggotaco.workers.dev/mcp"
+    }
+  }
+}
