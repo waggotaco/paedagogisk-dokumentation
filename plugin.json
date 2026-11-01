@@ -2,23 +2,43 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "paedagogisk-dokumentationsassistent",
   "version": "0.1.1",
-  "description": "Dansk pædagogisk dokumentationsassistent til børnehaver med genanvendelige arbejdsgange til observation, analyse, handleplaner, SMTTE og evaluering.",
+  "description": "Dansk pædagogisk dokumentationsassistent til børnehaver med arbejdsgange til observation, analyse, handleplaner, SMTTE og evaluering.",
   "author": {
-    "name": "Personligt ChatGPT-plugin"
+    "name": "Daniel Wackers"
   },
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Pædagogisk Dokumentationsassistent",
+        "displayName": "Pædagogisk Dokumentation",
         "shortDescription": "Pædagogisk dokumentation",
-        "longDescription": "En dansk, genanvendelig pædagogisk assistent til børnehavepraksis. Den hjælper med at strukturere observationer, skelne fakta fra fortolkninger, analysere læringsmiljøer, udarbejde handleplaner og SMTTE samt evaluere pædagogisk praksis. Kræver ingen eksterne tjenester eller datalagring.",
-        "developerName": "Personligt ChatGPT-plugin",
-        "category": "Productivity",
-        "capabilities": ["Interactive"],
+        "longDescription": "En dansk assistent til pædagogisk dokumentation i dagtilbud. Den hjælper med at strukturere observationer, skelne mellem fakta og fortolkninger, analysere pædagogiske situationer, udarbejde handleplaner og SMTTE-forløb samt evaluere indsatser. Indeholder genanvendelige skabeloner og understøtter arbejde ud fra delvise noter. Brugeren har ansvaret for faglig kontrol og for ikke at indsætte personoplysninger om børn uden relevant tilladelse.",
+        "developerName": "Daniel Wackers",
+        "category": "Education & Research",
+        "logo": "assets/logo.png",
+        "composerIcon": "assets/composer-icon.png",
         "defaultPrompt": [
-          "NY OBSERVATION – vis min faste ottepunkts-skabelon.",
-          "Hjælp mig med at analysere en pædagogisk situation fra børnehaven.",
-          "Lav en SMTTE eller evaluer en pædagogisk indsats ud fra mine noter."
+          "NY OBSERVATION – hjælp mig med at dokumentere en situation fra børnehaven.",
+          "Hjælp mig med at analysere en pædagogisk situation og skelne fakta fra fortolkning.",
+          "Lav en SMTTE eller handleplan ud fra mine noter."
+        ],
+        "websiteURL": "https://waggotaco.github.io/p-dagogisk-dokumentationsassistent/",
+        "supportURL": "https://waggotaco.github.io/p-dagogisk-dokumentationsassistent/support.html",
+        "privacyPolicyURL": "https://waggotaco.github.io/p-dagogisk-dokumentationsassistent/privatliv.html",
+        "termsOfServiceURL": "https://waggotaco.github.io/p-dagogisk-dokumentationsassistent/vilkaar.html"
+      },
+      "review": {
+        "prompts": [
+          "Hjælp mig med at strukturere en observation fra børnehaven, og adskil det observerede fra mine fortolkninger.",
+          "Analyser denne pædagogiske situation med fokus på barnets deltagelsesmuligheder og læringsmiljøet.",
+          "Udarbejd en konkret handleplan med mål, tegn, handlinger og evaluering ud fra mine noter.",
+          "Hjælp mig med at udfylde en SMTTE-model ud fra denne pædagogiske problemstilling.",
+          "Evaluer denne pædagogiske indsats ud fra de tegn og observationer, jeg giver dig."
+        ]
+      },
+      "publication": {
+        "release_notes": "Første offentlige klargøring af version 0.1.1 med danske arbejdsgange, dokumentationsskabeloner og offentlig informationsside.",
+        "countries": [
+          "DK"
         ]
       }
     }
