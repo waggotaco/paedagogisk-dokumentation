@@ -10,6 +10,10 @@
     body { font-family: system-ui, -apple-system, Segoe UI, sans-serif; line-height: 1.65; max-width: 820px; margin: 0 auto; padding: 2rem 1.2rem; color: #202124; }
     h1, h2 { line-height: 1.25; }
     h1 { margin-bottom: .25rem; }
+    .site-header { border-bottom: 1px solid #ddd; margin: -2rem -1.2rem 2rem; padding: 1rem 1.2rem; }
+    .site-nav { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; max-width: 820px; margin: 0 auto; }
+    .site-nav a { color: #174ea6; text-decoration: none; font-weight: 600; }
+    .site-nav a[aria-current="page"] { color: #202124; text-decoration: underline; text-underline-offset: .2em; }
     .updated { color: #5f6368; margin-top: 0; }
     a { overflow-wrap: anywhere; }
     li { margin: .35rem 0; }
@@ -17,6 +21,14 @@
   </style>
 </head>
 <body>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Hovedmenu">
+    <a href="index.html">Forside</a>
+    <a href="privatliv.html" aria-current="page">Privatliv</a>
+    <a href="vilkaar.html">Vilkår</a>
+    <a href="support.html">Support</a>
+  </nav>
+</header>
 <main>
   <h1>Privatlivspolitik</h1>
   <p class="updated">Pædagogisk Dokumentation · Senest opdateret: 1. november 2026</p>
