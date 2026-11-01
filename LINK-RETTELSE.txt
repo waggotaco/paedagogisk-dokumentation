@@ -1,0 +1,7 @@
+Alle plugin.json-adresser er opdateret til det nye GitHub Pages-site:
+https://waggotaco.github.io/paedagogisk-dokumentation/
+
+Undersider:
+https://waggotaco.github.io/paedagogisk-dokumentation/privatliv.html
+https://waggotaco.github.io/paedagogisk-dokumentation/vilkaar.html
+https://waggotaco.github.io/paedagogisk-dokumentation/support.html
